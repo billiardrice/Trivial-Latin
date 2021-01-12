@@ -2,6 +2,7 @@
 from random import *
 import csv
 from tkinter import *
+from tkinter import ttk
 
 
 # Declare Variables
@@ -278,6 +279,8 @@ root = Tk()
 app = Window(root)
 root.minsize(width=600, height=245)
 root.resizable(False, False)
+
+ttk.Style().theme_use('classic')
 
 x = StringVar()
 y = StringVar()
