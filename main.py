@@ -340,6 +340,6 @@ dice.pack()
 dice.place(bordermode=OUTSIDE, y=215)
 
 dieResult.pack()
-dieResult.place(bordermode=OUTSIDE, x=105, y=210)
+dieResult.place(bordermode=OUTSIDE, x=105, y=212)
 
 root.mainloop()
