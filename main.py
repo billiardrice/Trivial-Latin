@@ -276,7 +276,7 @@ class Window(Frame):
 # initialize tkinter
 root = Tk()
 app = Window(root)
-root.minsize(width=600, height=245)
+root.minsize(width=610, height=240)
 root.resizable(False, False)
 
 x = StringVar()
@@ -340,6 +340,6 @@ dice.pack()
 dice.place(bordermode=OUTSIDE, y=215)
 
 dieResult.pack()
-dieResult.place(bordermode=OUTSIDE, x=105, y=215)
+dieResult.place(bordermode=OUTSIDE, x=105, y=210)
 
 root.mainloop()
