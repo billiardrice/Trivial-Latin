@@ -326,20 +326,20 @@ construction.place(bordermode=OUTSIDE, y=185)
 questionInfo.pack()
 questionInfo.place(bordermode=OUTSIDE, x=95)
 textQuestion.pack()
-textQuestion.place(bordermode=OUTSIDE, x=95, y=50)
+textQuestion.place(bordermode=OUTSIDE, x=95, y=30)
 
 answerInfo.pack()
 answerInfo.place(bordermode=OUTSIDE, x=95, y=120)
 textAnswer.pack()
-textAnswer.place(bordermode=OUTSIDE, x=95, y=170)
+textAnswer.place(bordermode=OUTSIDE, x=95, y=140)
 
 dieResult = Message(root, textvariable = roll, width=500)
 
-dice = Button(root, text="Roll A Die", command=lambda:randDieRoll(), bg="purple", fg="white", width=10)
+dice = Button(root, text="Roll A Die", command=lambda:randDieRoll(), width=10)
 dice.pack()
 dice.place(bordermode=OUTSIDE, y=215)
 
 dieResult.pack()
-dieResult.place(bordermode=OUTSIDE, x=95, y=217)
+dieResult.place(bordermode=OUTSIDE, x=105, y=215)
 
 root.mainloop()
