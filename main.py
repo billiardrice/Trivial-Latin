@@ -326,12 +326,12 @@ construction.place(bordermode=OUTSIDE, y=185)
 questionInfo.pack()
 questionInfo.place(bordermode=OUTSIDE, x=95)
 textQuestion.pack()
-textQuestion.place(bordermode=OUTSIDE, x=95, y=15)
+textQuestion.place(bordermode=OUTSIDE, x=95, y=25)
 
 answerInfo.pack()
 answerInfo.place(bordermode=OUTSIDE, x=95, y=120)
 textAnswer.pack()
-textAnswer.place(bordermode=OUTSIDE, x=95, y=135)
+textAnswer.place(bordermode=OUTSIDE, x=95, y=145)
 
 dieResult = Message(root, textvariable = roll, width=500)
 
@@ -340,6 +340,6 @@ dice.pack()
 dice.place(bordermode=OUTSIDE, y=215)
 
 dieResult.pack()
-dieResult.place(bordermode=OUTSIDE, x=105, y=200)
+dieResult.place(bordermode=OUTSIDE, x=105, y=210)
 
 root.mainloop()
