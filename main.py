@@ -326,12 +326,12 @@ construction.place(bordermode=OUTSIDE, y=185)
 questionInfo.pack()
 questionInfo.place(bordermode=OUTSIDE, x=95)
 textQuestion.pack()
-textQuestion.place(bordermode=OUTSIDE, x=95, y=25)
+textQuestion.place(bordermode=OUTSIDE, x=100, y=25)
 
 answerInfo.pack()
 answerInfo.place(bordermode=OUTSIDE, x=95, y=120)
 textAnswer.pack()
-textAnswer.place(bordermode=OUTSIDE, x=95, y=145)
+textAnswer.place(bordermode=OUTSIDE, x=100, y=145)
 
 dieResult = Message(root, textvariable = roll, width=500)
 
