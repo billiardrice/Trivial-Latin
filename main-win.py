@@ -298,13 +298,13 @@ textQuestion = Message(root, textvariable = x, width=500)
 answerInfo = Message(root, text="Answer:", width=500)
 textAnswer = Message(root, textvariable = y, width=500)
 
-vocab = Button(root, text="Vocab", command=lambda:randVocabQuestion(), width=10)
-noun = Button(root, text="Noun", command=lambda:randNounQuestion(), width=10)
-verb = Button(root, text="Verb", command=lambda:randVerbQuestion(), width=10)
-culture = Button(root, text="Culture", command=lambda:randCultureQuestion(), width=10)
-history = Button(root, text="History", command=lambda:randHistoryQuestion(), width=10)
-adjAPC = Button(root, text="Adjective", command=lambda:randAdjAPCQCQuestion(), width=10)
-construction = Button(root, text="Construction", command=lambda:randConstructionQuestion(), width=10)
+vocab = Button(root, text="Vocab", command=lambda:randVocabQuestion(), bg="cyan", width=10)
+noun = Button(root, text="Noun", command=lambda:randNounQuestion(), bg="green", width=10)
+verb = Button(root, text="Verb", command=lambda:randVerbQuestion(), bg="yellow", width=10)
+culture = Button(root, text="Culture", command=lambda:randCultureQuestion(), bg="red", width=10)
+history = Button(root, text="History", command=lambda:randHistoryQuestion(), bg="black", fg="white", width=10)
+adjAPC = Button(root, text="Adjective", command=lambda:randAdjAPCQCQuestion(), bg="orange", width=10)
+construction = Button(root, text="Construction", command=lambda:randConstructionQuestion(), bg="white", width=10)
 
 # packing objects
 
@@ -324,14 +324,14 @@ construction.pack()
 construction.place(bordermode=OUTSIDE, y=185)
 
 questionInfo.pack()
-questionInfo.place(bordermode=OUTSIDE, x=95)
+questionInfo.place(bordermode=OUTSIDE, x=85)
 textQuestion.pack()
-textQuestion.place(bordermode=OUTSIDE, x=95, y=50)
+textQuestion.place(bordermode=OUTSIDE, x=85, y=50)
 
 answerInfo.pack()
-answerInfo.place(bordermode=OUTSIDE, x=95, y=120)
+answerInfo.place(bordermode=OUTSIDE, x=85, y=120)
 textAnswer.pack()
-textAnswer.place(bordermode=OUTSIDE, x=95, y=170)
+textAnswer.place(bordermode=OUTSIDE, x=85, y=170)
 
 dieResult = Message(root, textvariable = roll, width=500)
 
@@ -340,6 +340,6 @@ dice.pack()
 dice.place(bordermode=OUTSIDE, y=215)
 
 dieResult.pack()
-dieResult.place(bordermode=OUTSIDE, x=95, y=217)
+dieResult.place(bordermode=OUTSIDE, x=85, y=217 )
 
 root.mainloop()
