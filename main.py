@@ -276,7 +276,7 @@ class Window(Frame):
 # initialize tkinter
 root = Tk()
 app = Window(root)
-root.minsize(width=610, height=240)
+root.minsize(width=625, height=240)
 root.resizable(False, False)
 
 x = StringVar()
