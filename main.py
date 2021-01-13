@@ -117,7 +117,7 @@ def readFile():
                 if row[10] != '':
                     adjAPCQCount += 1
                 if row[12] != '':
-                    constructionQCOunt += 1
+                    constructionQCount += 1
 
             count += 1      
 
@@ -288,9 +288,9 @@ root.wm_title("Trivial Latin")
 
 readFile()
 
-print(verbQuestions[5])
-print(verbAnswers[5])
-print(verbQCount)
+print(constructionQuestions[5])
+print(constructionAnswers[5])
+print(constructionQCount)
 
 # creating objects
 questionInfo = Message(root, text="Question:", width=500)

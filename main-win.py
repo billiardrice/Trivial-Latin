@@ -118,7 +118,7 @@ def readFile():
                 if row[10] != '':
                     adjAPCQCount += 1
                 if row[12] != '':
-                    constructionQCOunt += 1
+                    constructionQCount += 1
 
             count += 1      
 
