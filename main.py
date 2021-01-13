@@ -82,7 +82,7 @@ def readFile():
     cultureQCount = 0
     historyQCount = 0
     adjAPCQCount = 0
-    constructionQCOunt = 0
+    constructionQCount = 0
 
     with open('questions.csv','r',encoding='utf-8') as csvDataFile:
         csvReader = csv.reader(csvDataFile)
